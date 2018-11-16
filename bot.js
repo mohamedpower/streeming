@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 100000 ;
-    var setGame = [`PoWeR MC `,`PoWeR MC`];
+    var setGame = [`PoWeR MC `,`My Channel`];
     var i = -1;
     var j = 0;
     setInterval(function (){
