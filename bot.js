@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('ready', function(){
     var ms = 100000 ;
-    var setGame = [`+help `,`PoWeR MC`];
+    var setGame = [`PoWeR MC `,`PoWeR MC`];
     var i = -1;
     var j = 0;
     setInterval(function (){
@@ -20,7 +20,7 @@ client.on('ready', function(){
             j = -1;
         }
         i = i+j;
-        client.user.setGame(setGame[i],`http://www.twitch.tv/falsteni_`);
+        client.user.setGame(setGame[i],`https://www.youtube.com/channel/UCE0oGEWXbQtgswQwmaRLjgA`);
     }, ms);100000
 
 });
